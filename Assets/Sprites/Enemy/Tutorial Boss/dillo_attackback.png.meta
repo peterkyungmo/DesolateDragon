@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 300c73ed7e90aef4e8746cffcf623142
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7896367721895105804
+    second: dillo_attackback_0
+  - first:
+      213: -8142450144738176166
+    second: dillo_attackback_1
+  - first:
+      213: 1630728671591520042
+    second: dillo_attackback_2
+  - first:
+      213: -3010865432062653497
+    second: dillo_attackback_3
+  - first:
+      213: 4020221675226854842
+    second: dillo_attackback_4
+  - first:
+      213: -7878077106507489305
+    second: dillo_attackback_5
+  - first:
+      213: -2340782081964374369
+    second: dillo_attackback_6
+  - first:
+      213: -8440825962030230090
+    second: dillo_attackback_7
+  - first:
+      213: -445306380672475387
+    second: dillo_attackback_8
+  - first:
+      213: -4088355630711722842
+    second: dillo_attackback_9
+  - first:
+      213: 2333906758133592261
+    second: dillo_attackback_10
+  - first:
+      213: -9100869363805003349
+    second: dillo_attackback_11
+  - first:
+      213: 8653735927784704997
+    second: dillo_attackback_12
+  - first:
+      213: 9087430961433571242
+    second: dillo_attackback_13
+  - first:
+      213: 5644167365122364509
+    second: dillo_attackback_14
+  - first:
+      213: 3832669149391610492
+    second: dillo_attackback_15
+  - first:
+      213: 6459914968418801173
+    second: dillo_attackback_16
+  - first:
+      213: -8995067282224166973
+    second: dillo_attackback_17
+  - first:
+      213: 7502821185214809808
+    second: dillo_attackback_18
+  - first:
+      213: 556411813266015507
+    second: dillo_attackback_19
+  - first:
+      213: 6044610995942246718
+    second: dillo_attackback_20
+  - first:
+      213: 6523018064002806333
+    second: dillo_attackback_21
+  - first:
+      213: 7688091803010995523
+    second: dillo_attackback_22
+  - first:
+      213: 6791207066653885939
+    second: dillo_attackback_23
+  - first:
+      213: 124071355578756055
+    second: dillo_attackback_24
+  - first:
+      213: -3170084987513171711
+    second: dillo_attackback_25
+  - first:
+      213: 9069859370202133266
+    second: dillo_attackback_26
+  - first:
+      213: -829325701499929695
+    second: dillo_attackback_27
+  - first:
+      213: 7912374788217530792
+    second: dillo_attackback_28
+  - first:
+      213: -7780619036720482197
+    second: dillo_attackback_29
+  - first:
+      213: -7946211567548965780
+    second: dillo_attackback_30
+  - first:
+      213: 1086101173839710407
+    second: dillo_attackback_31
+  - first:
+      213: -3984676535349515346
+    second: dillo_attackback_32
+  - first:
+      213: -8207279781729614021
+    second: dillo_attackback_33
+  - first:
+      213: -292566361049558116
+    second: dillo_attackback_34
+  - first:
+      213: 6176167466070048546
+    second: dillo_attackback_35
+  - first:
+      213: -114311730560036388
+    second: dillo_attackback_36
+  - first:
+      213: 5701556782975032273
+    second: dillo_attackback_37
+  - first:
+      213: 5284486267353488973
+    second: dillo_attackback_38
+  - first:
+      213: 4462707586755221499
+    second: dillo_attackback_39
+  - first:
+      213: -2403915784506506686
+    second: dillo_attackback_40
+  - first:
+      213: 6491871821505672896
+    second: dillo_attackback_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dillo_attackback_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fae498c4677a6290800000000000000
+      internalID: -7896367721895105804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dillo_attackback_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a539d81ebb4300f80800000000000000
+      internalID: -8142450144738176166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dillo_attackback_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27d14b361381a610800000000000000
+      internalID: 1630728671591520042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
