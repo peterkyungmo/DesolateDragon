@@ -1,58 +1,52 @@
 fileFormatVersion: 2
-guid: dc4e2ada19cad344296366c713516d03
+guid: 73cdfc203269a3940bd6063d16f1d39f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1801638989770709128
-    second: firebird_right_move_0
+      213: -3631431914062326554
+    second: watertideleft_0
   - first:
-      213: -6644679188924177332
-    second: firebird_right_move_1
+      213: -6013717058390786510
+    second: watertideleft_1
   - first:
-      213: 4425509859781421225
-    second: firebird_right_move_2
+      213: -3400405580617813033
+    second: watertideleft_2
   - first:
-      213: -4026250078127525449
-    second: firebird_right_move_3
+      213: 1857705364278160562
+    second: watertideleft_3
   - first:
-      213: 595890491655495200
-    second: firebird_right_move_4
+      213: 5457127314245079682
+    second: watertideleft_4
   - first:
-      213: -2988218348037284212
-    second: firebird_right_move_5
+      213: 110441521914242511
+    second: watertideleft_5
   - first:
-      213: -3690568303681609406
-    second: firebird_right_move_6
+      213: 9035461565856622118
+    second: watertideleft_6
   - first:
-      213: -7621612463061647832
-    second: firebird_right_move_7
+      213: -4381558669621255545
+    second: watertideleft_7
   - first:
-      213: 6475976236103835707
-    second: firebird_right_move_8
+      213: -1863748268334780435
+    second: watertideleft_8
   - first:
-      213: 3463011613791971869
-    second: firebird_right_move_9
+      213: -7768925388248731801
+    second: watertideleft_9
   - first:
-      213: 4792427576480736495
-    second: firebird_right_move_10
+      213: 5227021889458517094
+    second: watertideleft_10
   - first:
-      213: -5662136223989373726
-    second: firebird_right_move_11
+      213: 8700064637676899757
+    second: watertideleft_11
   - first:
-      213: -3747124040270725048
-    second: firebird_right_move_0
+      213: 2288865829075259225
+    second: watertideleft_12
   - first:
-      213: -1061202285811318833
-    second: firebird_right_move_1
+      213: 5850214491694999589
+    second: watertideleft_13
   - first:
-      213: -8424572395723204225
-    second: firebird_right_move_2
-  - first:
-      213: 4308995429058773918
-    second: firebird_right_move_3
-  - first:
-      213: 8067180807104846996
-    second: firebird_right_move_4
+      213: 7622891291386717262
+    second: watertideleft_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -150,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: firebird_right_move_0
+      name: watertideleft_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +158,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 840465ad98a8ffbc0800000000000000
-      internalID: -3747124040270725048
+      spriteID: 6e45c401aef8a9dc0800000000000000
+      internalID: -3631431914062326554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firebird_right_move_1
+      name: watertideleft_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ef8ea823cfa8ca0800000000000000
+      internalID: -6013717058390786510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watertideleft_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 128
-        height: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +200,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcf326fb42ad541f0800000000000000
-      internalID: -1061202285811318833
+      spriteID: 7d3f40bf3255fc0d0800000000000000
+      internalID: -3400405580617813033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firebird_right_move_2
+      name: watertideleft_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc232faf25e7c910800000000000000
+      internalID: 1857705364278160562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watertideleft_4
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 128
-        height: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,50 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f795b589a08e51b80800000000000000
-      internalID: -8424572395723204225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: firebird_right_move_3
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9384df3380accb30800000000000000
-      internalID: 4308995429058773918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: firebird_right_move_4
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49c555ac33264ff60800000000000000
-      internalID: 8067180807104846996
+      spriteID: 282d8a3116c9bbb40800000000000000
+      internalID: 5457127314245079682
       vertices: []
       indices: 
       edges: []

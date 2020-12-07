@@ -1,58 +1,19 @@
 fileFormatVersion: 2
-guid: dc4e2ada19cad344296366c713516d03
+guid: a0c815759cd59b24690363828e0bea3e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1801638989770709128
-    second: firebird_right_move_0
+      213: -5816642994671486895
+    second: portal_0
   - first:
-      213: -6644679188924177332
-    second: firebird_right_move_1
+      213: 2720290072527178061
+    second: portal_1
   - first:
-      213: 4425509859781421225
-    second: firebird_right_move_2
+      213: -68809774801260167
+    second: portal_2
   - first:
-      213: -4026250078127525449
-    second: firebird_right_move_3
-  - first:
-      213: 595890491655495200
-    second: firebird_right_move_4
-  - first:
-      213: -2988218348037284212
-    second: firebird_right_move_5
-  - first:
-      213: -3690568303681609406
-    second: firebird_right_move_6
-  - first:
-      213: -7621612463061647832
-    second: firebird_right_move_7
-  - first:
-      213: 6475976236103835707
-    second: firebird_right_move_8
-  - first:
-      213: 3463011613791971869
-    second: firebird_right_move_9
-  - first:
-      213: 4792427576480736495
-    second: firebird_right_move_10
-  - first:
-      213: -5662136223989373726
-    second: firebird_right_move_11
-  - first:
-      213: -3747124040270725048
-    second: firebird_right_move_0
-  - first:
-      213: -1061202285811318833
-    second: firebird_right_move_1
-  - first:
-      213: -8424572395723204225
-    second: firebird_right_move_2
-  - first:
-      213: 4308995429058773918
-    second: firebird_right_move_3
-  - first:
-      213: 8067180807104846996
-    second: firebird_right_move_4
+      213: -4604820735629425415
+    second: portal_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -150,7 +111,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: firebird_right_move_0
+      name: portal_0
       rect:
         serializedVersion: 2
         x: 0
@@ -164,14 +125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 840465ad98a8ffbc0800000000000000
-      internalID: -3747124040270725048
+      spriteID: 1587755a302274fa0800000000000000
+      internalID: -5816642994671486895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firebird_right_move_1
+      name: portal_1
       rect:
         serializedVersion: 2
         x: 128
@@ -185,14 +146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcf326fb42ad541f0800000000000000
-      internalID: -1061202285811318833
+      spriteID: d490103886960c520800000000000000
+      internalID: 2720290072527178061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firebird_right_move_2
+      name: portal_2
       rect:
         serializedVersion: 2
         x: 256
@@ -206,14 +167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f795b589a08e51b80800000000000000
-      internalID: -8424572395723204225
+      spriteID: 97175e7dfd98b0ff0800000000000000
+      internalID: -68809774801260167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firebird_right_move_3
+      name: portal_3
       rect:
         serializedVersion: 2
         x: 384
@@ -227,29 +188,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9384df3380accb30800000000000000
-      internalID: 4308995429058773918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: firebird_right_move_4
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49c555ac33264ff60800000000000000
-      internalID: 8067180807104846996
+      spriteID: 9f4847630f36810c0800000000000000
+      internalID: -4604820735629425415
       vertices: []
       indices: 
       edges: []

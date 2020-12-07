@@ -1,9 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ShootingAbove : MonoBehaviour
 {
+    #region Animation_component
+    Animator anim;
+    #endregion
+
     public Transform firePoint;
     public GameObject bulletPrefab;
 
@@ -12,6 +17,7 @@ public class ShootingAbove : MonoBehaviour
     {
         // Calls Shoot every 2 seconds after instantiated for 3 seconds
         InvokeRepeating("Shoot", 3.0f, 2.0f);
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -26,5 +32,6 @@ public class ShootingAbove : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+        anim.SetTrigger("AttackTrig");
     }
 }
