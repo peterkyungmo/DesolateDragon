@@ -2160,8 +2160,8 @@ GameObject:
   - component: {fileID: 1758250056}
   - component: {fileID: 1758250051}
   - component: {fileID: 1758250055}
-  - component: {fileID: 1758250050}
   - component: {fileID: 1758250057}
+  - component: {fileID: 1758250058}
   m_Layer: 0
   m_Name: FireBoss
   m_TagString: Untagged
@@ -2169,20 +2169,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1758250050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758250049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fed021b09ae2ac4a80c747b9b2b2e1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movespeed: 4
-  moveInterval: 1
 --- !u!50 &1758250051
 Rigidbody2D:
   serializedVersion: 4
@@ -2338,6 +2324,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1758250058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758250049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a87b4614bc2106540a73658a0d8382af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movespeed: 3
+  moveInterval: 1
+  chargeCD: 3
+  chargeMultiplier: 2
+  player: {fileID: 1823206470}
 --- !u!1 &1785115981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,6 +2384,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af2b8a063db476d4db17d08bde3a2ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1823206470 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5437908336734055835, guid: 3ab41d748ee7c8b4cb3c42d7a34e544f,
+    type: 3}
+  m_PrefabInstance: {fileID: 5437908336133938661}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1838700577
 GameObject:
   m_ObjectHideFlags: 0
@@ -4423,6 +4432,18 @@ PrefabInstance:
       propertyPath: hearts.Array.data[4]
       value: 
       objectReference: {fileID: 2044867499}
+    - target: {fileID: 5437908336734055783, guid: 3ab41d748ee7c8b4cb3c42d7a34e544f,
+        type: 3}
+      propertyPath: fullHeart
+      value: 
+      objectReference: {fileID: 6474278674946417186, guid: 5fcab151962360d43be349b0f84cdd4e,
+        type: 3}
+    - target: {fileID: 5437908336734055783, guid: 3ab41d748ee7c8b4cb3c42d7a34e544f,
+        type: 3}
+      propertyPath: emptyHeart
+      value: 
+      objectReference: {fileID: 2682891592873716606, guid: 5fcab151962360d43be349b0f84cdd4e,
+        type: 3}
     - target: {fileID: 5437908336734055835, guid: 3ab41d748ee7c8b4cb3c42d7a34e544f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4477,6 +4498,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5437908336734055838, guid: 3ab41d748ee7c8b4cb3c42d7a34e544f,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5437908336734055838, guid: 3ab41d748ee7c8b4cb3c42d7a34e544f,
+        type: 3}
+      propertyPath: dashTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5437908336734055838, guid: 3ab41d748ee7c8b4cb3c42d7a34e544f,
+        type: 3}
+      propertyPath: dashMultiplier
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5437908336734055838, guid: 3ab41d748ee7c8b4cb3c42d7a34e544f,
+        type: 3}
+      propertyPath: dashInterval
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5437908336734055839, guid: 3ab41d748ee7c8b4cb3c42d7a34e544f,
         type: 3}
