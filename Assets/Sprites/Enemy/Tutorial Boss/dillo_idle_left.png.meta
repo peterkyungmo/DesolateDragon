@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 7474babd78efe6143858128008bbae45
+guid: cc5e0b57e412cc24a9a3c047b8dfcde4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -486083710656277321
-    second: dillo_walkback_0
+      213: -1107684931197963136
+    second: dillo_idle_left_0
   - first:
-      213: 8980393739959972364
-    second: dillo_walkback_1
-  - first:
-      213: -6313600542251982209
-    second: dillo_walkback_2
-  - first:
-      213: 2237858957275078197
-    second: dillo_walkback_3
+      213: -2829528013295756828
+    second: dillo_idle_left_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dillo_walkback_0
+      name: dillo_idle_left_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 48
-        width: 44
-        height: 39
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b49a37c0751149f0800000000000000
-      internalID: -486083710656277321
+      spriteID: 08474e08c66b0a0f0800000000000000
+      internalID: -1107684931197963136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dillo_walkback_1
+      name: dillo_idle_left_1
       rect:
         serializedVersion: 2
-        x: 171
-        y: 47
-        width: 44
-        height: 45
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,50 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c02b47db684c0ac70800000000000000
-      internalID: 8980393739959972364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dillo_walkback_2
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 48
-        width: 44
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f726b59f1c59168a0800000000000000
-      internalID: -6313600542251982209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dillo_walkback_3
-      rect:
-        serializedVersion: 2
-        x: 427
-        y: 47
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53e9ecd6dd87e0f10800000000000000
-      internalID: 2237858957275078197
+      spriteID: 4e95d7d634f7bb8d0800000000000000
+      internalID: -2829528013295756828
       vertices: []
       indices: 
       edges: []
