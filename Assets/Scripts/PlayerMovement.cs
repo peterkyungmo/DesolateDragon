@@ -11,10 +11,10 @@ public class PlayerMovement : MonoBehaviour
 
     #region Movement Variables
     public float moveSpeed = 5f;
-    public float dashTime = 1.5f;
-    public float dashInterval = 4f;
+    float dashTime = 0.25f;
+    float dashInterval = 2f;
     private float dashTimer = 0f;
-    public float dashMultiplier = 2f;
+    float dashMultiplier = 4f;
     private float speedMultiplier = 1f;
     Vector2 movement;
     #endregion
@@ -39,17 +39,22 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         // Get Input
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        //movement.x = Input.GetAxisRaw("Horizontal");
+        //movement.y = Input.GetAxisRaw("Vertical");
 
         // Check for dash cooldown
         if (dashTimer > dashTime)
         {
             speedMultiplier = 1f;
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
         }
 
         if (Input.GetKeyDown(KeyCode.K) && dashTimer > dashInterval)
         {
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+
             dashTimer = 0f;
 
             speedMultiplier = dashMultiplier;

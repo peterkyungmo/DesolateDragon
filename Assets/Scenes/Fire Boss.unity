@@ -507,6 +507,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786731614}
   m_CullTransparentMesh: 0
+--- !u!1 &1024428330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1024428331}
+  - component: {fileID: 1024428332}
+  m_Layer: 0
+  m_Name: PlayerFirePointAbove
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1024428331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024428330}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.04, y: 0.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1337481794}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1024428332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024428330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2b8a063db476d4db17d08bde3a2ce0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1067879820
 GameObject:
   m_ObjectHideFlags: 0
@@ -2072,6 +2115,36 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &1337481785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1256976232176282054, guid: b3305137264496447a9e135ccd1a614e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1736906175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1337481786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337481785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1340820b58ab9464b8b25eb9da69e1ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 1024428331}
+  bulletPrefab: {fileID: 5908635645198135505, guid: 9c38937d0aa699242a697dcc6a6b75ba,
+    type: 3}
+  shootInterval: 2
+  defeated_fire_boss: 1
+  bulletForce: 5
+--- !u!4 &1337481794 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1256976232176282050, guid: b3305137264496447a9e135ccd1a614e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1736906175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1402869001
 GameObject:
   m_ObjectHideFlags: 0
@@ -2193,12 +2266,12 @@ PrefabInstance:
     - target: {fileID: 1256976232176282050, guid: b3305137264496447a9e135ccd1a614e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.12
+      value: -1.98
       objectReference: {fileID: 0}
     - target: {fileID: 1256976232176282050, guid: b3305137264496447a9e135ccd1a614e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.99
+      value: -2.69
       objectReference: {fileID: 0}
     - target: {fileID: 1256976232176282050, guid: b3305137264496447a9e135ccd1a614e,
         type: 3}
@@ -2255,6 +2328,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1256976232176282054, guid: b3305137264496447a9e135ccd1a614e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1256976232176282055, guid: b3305137264496447a9e135ccd1a614e,
+        type: 3}
+      propertyPath: dashTime
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1256976232176282055, guid: b3305137264496447a9e135ccd1a614e,
+        type: 3}
+      propertyPath: dashMultiplier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1256976232176282055, guid: b3305137264496447a9e135ccd1a614e,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1256976232176282055, guid: b3305137264496447a9e135ccd1a614e,
+        type: 3}
+      propertyPath: dashInterval
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3305137264496447a9e135ccd1a614e, type: 3}
 --- !u!1 &1758250049
@@ -2275,7 +2373,7 @@ GameObject:
   - component: {fileID: 1758250058}
   m_Layer: 0
   m_Name: FireBoss
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2376,7 +2474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758250049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.83, y: 0.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 36679764}
