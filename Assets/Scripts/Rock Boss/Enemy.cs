@@ -160,6 +160,7 @@ public class Enemy : MonoBehaviour
     #region Attack_function
     public void Attack()
     {
+        FindObjectOfType<AudioManager>().Play("HedgeAttack");
         //Debug.Log("The Boss attacks. It takes " + attackDuration + " time.");
         moveTimer += attackDuration - moveStopTime;
         //Debug.Log("Attack speed is " + attackspeed.ToString() + ".");

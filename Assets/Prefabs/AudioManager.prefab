@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2063861832134496172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2063861832134496162}
+  - component: {fileID: 2063861832134496163}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2063861832134496162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063861832134496172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6842356, y: 0.22428112, z: -11.199479}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2063861832134496163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063861832134496172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0080e81e7e0f8334785f752cce8d0c0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BirdHurt
+    clip: {fileID: 8300000, guid: ec9bd3cfe2f971d438dd4371d4c3873d, type: 3}
+    volume: 0.5
+    pitch: 0.99
+    loop: 0
+    source: {fileID: 0}
+  - name: BirdStart
+    clip: {fileID: 8300000, guid: 1805bd7f6e065314f9c0eb175adeeceb, type: 3}
+    volume: 0.534
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: Them
+    clip: {fileID: 8300000, guid: b2ab6068d1b082046add8e3c5606feef, type: 3}
+    volume: 0.534
+    pitch: 1.01
+    loop: 1
+    source: {fileID: 0}
+  - name: PlayerHurt
+    clip: {fileID: 8300000, guid: 671c1f695fe8b6344aa1aad36bdc3bd7, type: 3}
+    volume: 0.369
+    pitch: 0.47
+    loop: 0
+    source: {fileID: 0}
+  - name: BirdAttack
+    clip: {fileID: 8300000, guid: 970f461b439233f41a501c8412a83c79, type: 3}
+    volume: 0.541
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: BirdDie
+    clip: {fileID: 8300000, guid: 33f6331b2dba11d4496093acd660103b, type: 3}
+    volume: 0.948
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: HedgeAttack
+    clip: {fileID: 8300000, guid: c4213e00303778a43a8a51516d038b33, type: 3}
+    volume: 0.484
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: HedgeHurt
+    clip: {fileID: 8300000, guid: 94c12b67c5605534ba1a4638391c111e, type: 3}
+    volume: 0.498
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: OctopusAttack
+    clip: {fileID: 8300000, guid: 79c48bc2ca2a9d644994ed0757fecb7f, type: 3}
+    volume: 0.948
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: OctopusHurt
+    clip: {fileID: 8300000, guid: f80b8e5cdfd9bdf479e849c45a3902b9, type: 3}
+    volume: 0.948
+    pitch: 0.41
+    loop: 0
+    source: {fileID: 0}
+  - name: BirdAttack
+    clip: {fileID: 8300000, guid: 970f461b439233f41a501c8412a83c79, type: 3}
+    volume: 0.948
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: BirdAttack
+    clip: {fileID: 8300000, guid: 970f461b439233f41a501c8412a83c79, type: 3}
+    volume: 0.948
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: BirdAttack
+    clip: {fileID: 8300000, guid: 970f461b439233f41a501c8412a83c79, type: 3}
+    volume: 0.948
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: BirdAttack
+    clip: {fileID: 8300000, guid: 970f461b439233f41a501c8412a83c79, type: 3}
+    volume: 0.948
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: BirdAttack
+    clip: {fileID: 8300000, guid: 970f461b439233f41a501c8412a83c79, type: 3}
+    volume: 0.948
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}

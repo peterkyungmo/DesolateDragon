@@ -19,6 +19,7 @@ public class FireBossMovement : MonoBehaviour
     {
         boss2RB = GetComponent<Rigidbody2D>();
         moveTimer = moveInterval;
+        FindObjectOfType<AudioManager>().Play("BirdStart");
     }
 
     // Update is called once per frame
