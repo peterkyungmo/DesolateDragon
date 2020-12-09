@@ -11,6 +11,10 @@ public class ProjectileHittingEnemy : MonoBehaviour
         if (!collision.gameObject.CompareTag("Player"))
         {
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+            if (collision.gameObject.CompareTag("Enemy"))
+            {
+                collision.gameObject.GetComponent<BossHealth>().TakeDamage(1);
+            }
             Destroy(gameObject);
             Destroy(effect, 5f);
         }

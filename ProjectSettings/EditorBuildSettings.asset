@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ea38447162c0f394b8b18b54198e65ee
+  - enabled: 1
+    path: Assets/Scenes/Rock Boss.unity
+    guid: b1d91b9a96afa3843bc7baca35798482
+  - enabled: 1
+    path: Assets/Scenes/Fire Boss.unity
+    guid: 8fa9c8c046b7c1a41b2d82640b736390
+  - enabled: 1
+    path: Assets/Scenes/Water Boss.unity
+    guid: f54494e5d1d8ae244bd4fa2a8e5a7f00
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: 5707924f32daa5644b4d80c40a9a02ca
+  - enabled: 1
+    path: Assets/Scenes/LoseScene.unity
+    guid: f77a0c788c83f27468a5b9c95ec4a875
   m_configObjects: {}

@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     float dashMultiplier = 4f;
     private float speedMultiplier = 1f;
     Vector2 movement;
+    public bool dash;
     #endregion
 
     #region Movement Functions
@@ -50,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
             movement.y = Input.GetAxisRaw("Vertical");
         }
 
-        if (Input.GetKeyDown(KeyCode.K) && dashTimer > dashInterval)
+        if (Input.GetKeyDown(KeyCode.K) && dashTimer > dashInterval && dash)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");

@@ -13,6 +13,9 @@ public class PlayerHealth : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
+    private float hitTimer = 0.0f;
+    private float hitInterval = 1f;
+
     void Update()
     {
         if (health > numOfHearts)
@@ -41,13 +44,16 @@ public class PlayerHealth : MonoBehaviour
                 hearts[i].enabled = false;
             }
         }
+
+        hitTimer += Time.deltaTime;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == 8)
+        if (collision.gameObject.layer == 8 && hitTimer > hitInterval)
         {
             // Collision
+            hitTimer = 0f;
             TakeDamage();
         }
     }
@@ -64,7 +70,8 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
+        GameObject gm = GameObject.FindWithTag("GameController");
+        gm.GetComponent<GameManager>().LoseGame();
         Destroy(gameObject);
     }
-
 }

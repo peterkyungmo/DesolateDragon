@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     #region Scene_transitions
     public void StartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Rock Boss");
     }
     public void LoseGame()
     {
@@ -44,6 +44,16 @@ public class GameManager : MonoBehaviour
     public void RulesPage()
     {
         SceneManager.LoadScene("RulesScene");
+    }
+
+    public void FireBoss()
+    {
+        SceneManager.LoadScene("Fire Boss");
+    }
+
+    public void WaterBoss()
+    {
+        SceneManager.LoadScene("Water Boss");
     }
     #endregion
 }

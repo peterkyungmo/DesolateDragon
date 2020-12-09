@@ -6,6 +6,8 @@ public class BossHealth : MonoBehaviour
 {
     public float maxhealth;
     public float currHealth;
+    public GameObject portal;
+    public Transform portalSpawn;
 
     public void TakeDamage(float value)
     {
@@ -18,18 +20,7 @@ public class BossHealth : MonoBehaviour
 
     protected void Die()
     {
+        Instantiate(portal, portalSpawn.position, portalSpawn.rotation);
         Destroy(this.gameObject);
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

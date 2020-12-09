@@ -38,19 +38,12 @@ public class Enemy : MonoBehaviour
     public Transform player;
     #endregion
 
-    #region Health_variables
-    public float maxhealth;
-    public float currHealth;
-    //public Slider HPSlider;
-    #endregion
 
     #region Unity_functions
     // runs once on creation
     protected void Awake()
     {
         EnemyRB = GetComponent<Rigidbody2D>();
-
-        currHealth = maxhealth;
 
         moveTimer = attackDuration;
 
@@ -174,29 +167,5 @@ public class Enemy : MonoBehaviour
     }
     #endregion
 
-    #region Health_functions
 
-    public void TakeDamage(float value)
-    {
-        //Decrement health
-        currHealth -= value;
-        //HPSlider.value = currHealth / maxhealth;
-        //Debug.Log("Health is now " + currHealth.ToString());
-
-        //change UI
-
-        //Check if dead
-        if (currHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    protected void Die()
-    {
-        // Destory game object
-        Destroy(this.gameObject);
-    }
-
-    #endregion
 }
