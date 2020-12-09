@@ -32,6 +32,7 @@ public class WaterBossCombat : MonoBehaviour
 
     void Attack()
     {
+        FindObjectOfType<AudioManager>().Play("OctopusAttack");
         // Play attack animations
         Instantiate(tideNorth, attackHitBoxNorth.position, transform.rotation);
         Instantiate(tideSouth, attackHitBoxSouth.position, transform.rotation);

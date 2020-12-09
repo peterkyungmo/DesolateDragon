@@ -30,5 +30,6 @@ public class ShootingAbove : MonoBehaviour
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
         anim.SetTrigger("AttackTrig");
+        FindObjectOfType<AudioManager>().Play("BirdAttack");
     }
 }

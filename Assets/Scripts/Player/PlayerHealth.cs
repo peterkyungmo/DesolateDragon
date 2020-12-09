@@ -54,6 +54,10 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage()
     {
+        FindObjectOfType<AudioManager>().Play("PlayerHurt");
+
+        UnityEngine.Debug.Log("No player sound");
+
         health -= 1;
         if (health <= 0)
         {
